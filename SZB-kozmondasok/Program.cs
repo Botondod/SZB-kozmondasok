@@ -32,13 +32,6 @@ namespace SZB_kozmondasok
 
 
 
-            while (sor != null)
-            {
-                reszek = sor.Split('.');
-                listab.Add(reszek[0]);
-                sor = bee.ReadLine();
-            }
-            bee.Close();
         }
         static void Main(string[] args)
         {
